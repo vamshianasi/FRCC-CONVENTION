@@ -1,0 +1,1867 @@
+{
+  "users": [
+    {
+      "id": "test-user-1",
+      "name": "Test User",
+      "email": "test@frcc.example",
+      "mobile": "9999999999",
+      "createdAt": "2026-10-13T04:45:22.433Z"
+    }
+  ],
+  "halls": [
+    {
+      "id": "VH1",
+      "name": "Grand Ballroom",
+      "type": "AC",
+      "capacity": 800,
+      "pricePerHour": 15000,
+      "pricePerDay": 110000,
+      "venueId": "VG1",
+      "venueName": "FRCC Grand Hitech",
+      "areaId": "HC",
+      "areaName": "Hitech City",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Hitech City",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Bridal Room"
+      ],
+      "images": [
+        "/images/halls/HYD/HC/VG1/hitech-grand-ballroom-1.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-grand-ballroom-2.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-grand-ballroom-3.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-grand-ballroom-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 15,000/hr",
+      "displayPricePerDay": "Rs. 1,10,000/day"
+    },
+    {
+      "id": "VH2",
+      "name": "Conference Hall",
+      "type": "AC",
+      "capacity": 400,
+      "pricePerHour": 10000,
+      "pricePerDay": 75000,
+      "venueId": "VG1",
+      "venueName": "FRCC Grand Hitech",
+      "areaId": "HC",
+      "areaName": "Hitech City",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Hitech City",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/HYD/HC/VG1/hitech-conf-hall-1.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-conf-hall-2.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-conf-hall-3.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-conf-hall-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 10,000/hr",
+      "displayPricePerDay": "Rs. 75,000/day"
+    },
+    {
+      "id": "VH3",
+      "name": "Banquet Hall",
+      "type": "NON_AC",
+      "capacity": 300,
+      "pricePerHour": 7500,
+      "pricePerDay": 55000,
+      "venueId": "VG1",
+      "venueName": "FRCC Grand Hitech",
+      "areaId": "HC",
+      "areaName": "Hitech City",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Hitech City",
+      "city": "Hyderabad",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn Access",
+        "Parking",
+        "Basic Stage",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/HYD/HC/VG1/hitech-banquet-1.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-banquet-2.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-banquet-3.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-banquet-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,500/hr",
+      "displayPricePerDay": "Rs. 55,000/day"
+    },
+    {
+      "id": "VH4",
+      "name": "Board Room",
+      "type": "BOARD_ROOM",
+      "capacity": 25,
+      "pricePerHour": 2000,
+      "pricePerDay": 15000,
+      "venueId": "VG1",
+      "venueName": "FRCC Grand Hitech",
+      "areaId": "HC",
+      "areaName": "Hitech City",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Hitech City",
+      "city": "Hyderabad",
+      "amenities": [
+        "AC",
+        "Video Conferencing",
+        "Whiteboard",
+        "Coffee Service",
+        "Valet"
+      ],
+      "images": [
+        "/images/halls/HYD/HC/VG1/hitech-boardroom-1.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-boardroom-2.jpg",
+        "/images/halls/HYD/HC/VG1/hitech-boardroom-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 2,000/hr",
+      "displayPricePerDay": "Rs. 15,000/day"
+    },
+    {
+      "id": "VH5",
+      "name": "Grand Hall",
+      "type": "AC",
+      "capacity": 600,
+      "pricePerHour": 12000,
+      "pricePerDay": 88000,
+      "venueId": "VG2",
+      "venueName": "FRCC Gachibowli Palace",
+      "areaId": "GC",
+      "areaName": "Gachibowli",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Gachibowli",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/HYD/GC/VG2/gachibowli-grand-1.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-grand-2.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-grand-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 12,000/hr",
+      "displayPricePerDay": "Rs. 88,000/day"
+    },
+    {
+      "id": "VH6",
+      "name": "Meeting Room",
+      "type": "AC",
+      "capacity": 150,
+      "pricePerHour": 8000,
+      "pricePerDay": 60000,
+      "venueId": "VG2",
+      "venueName": "FRCC Gachibowli Palace",
+      "areaId": "GC",
+      "areaName": "Gachibowli",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Gachibowli",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi"
+      ],
+      "images": [
+        "/images/halls/HYD/GC/VG2/gachibowli-meeting-1.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-meeting-2.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-meeting-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 8,000/hr",
+      "displayPricePerDay": "Rs. 60,000/day"
+    },
+    {
+      "id": "VH7",
+      "name": "Lawn Garden",
+      "type": "NON_AC",
+      "capacity": 250,
+      "pricePerHour": 7000,
+      "pricePerDay": 52000,
+      "venueId": "VG2",
+      "venueName": "FRCC Gachibowli Palace",
+      "areaId": "GC",
+      "areaName": "Gachibowli",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Gachibowli",
+      "city": "Hyderabad",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn",
+        "Parking",
+        "Stage",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/HYD/GC/VG2/gachibowli-lawn-1.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-lawn-2.jpg",
+        "/images/halls/HYD/GC/VG2/gachibowli-lawn-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,000/hr",
+      "displayPricePerDay": "Rs. 52,000/day"
+    },
+    {
+      "id": "VH8",
+      "name": "Banjara Ballroom",
+      "type": "AC",
+      "capacity": 700,
+      "pricePerHour": 14000,
+      "pricePerDay": 105000,
+      "venueId": "VG3",
+      "venueName": "FRCC Banjara Royale",
+      "areaId": "BH",
+      "areaName": "Banjara Hills",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Bridal Room",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/HYD/BH/VG3/banjara-ballroom-1.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-ballroom-2.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-ballroom-3.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-ballroom-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 14,000/hr",
+      "displayPricePerDay": "Rs. 1,05,000/day"
+    },
+    {
+      "id": "VH9",
+      "name": "Conference Suite",
+      "type": "AC",
+      "capacity": 350,
+      "pricePerHour": 9500,
+      "pricePerDay": 72000,
+      "venueId": "VG3",
+      "venueName": "FRCC Banjara Royale",
+      "areaId": "BH",
+      "areaName": "Banjara Hills",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/HYD/BH/VG3/banjara-conf-1.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-conf-2.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-conf-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 9,500/hr",
+      "displayPricePerDay": "Rs. 72,000/day"
+    },
+    {
+      "id": "VH10",
+      "name": "Board Room",
+      "type": "BOARD_ROOM",
+      "capacity": 30,
+      "pricePerHour": 2500,
+      "pricePerDay": 18000,
+      "venueId": "VG3",
+      "venueName": "FRCC Banjara Royale",
+      "areaId": "BH",
+      "areaName": "Banjara Hills",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Banjara Hills",
+      "city": "Hyderabad",
+      "amenities": [
+        "AC",
+        "Video Conferencing",
+        "Whiteboard",
+        "Coffee Service"
+      ],
+      "images": [
+        "/images/halls/HYD/BH/VG3/banjara-boardroom-1.jpg",
+        "/images/halls/HYD/BH/VG3/banjara-boardroom-2.jpg"
+      ],
+      "displayPricePerHour": "Rs. 2,500/hr",
+      "displayPricePerDay": "Rs. 18,000/day"
+    },
+    {
+      "id": "VH11",
+      "name": "Grand Hall",
+      "type": "AC",
+      "capacity": 650,
+      "pricePerHour": 10000,
+      "pricePerDay": 75000,
+      "venueId": "VG4",
+      "venueName": "FRCC Secunderabad Pavilion",
+      "areaId": "SS",
+      "areaName": "Secunderabad",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Secunderabad",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/HYD/SS/VG4/secunderabad-grand-1.jpg",
+        "/images/halls/HYD/SS/VG4/secunderabad-grand-2.jpg",
+        "/images/halls/HYD/SS/VG4/secunderabad-grand-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 10,000/hr",
+      "displayPricePerDay": "Rs. 75,000/day"
+    },
+    {
+      "id": "VH12",
+      "name": "Meeting Room",
+      "type": "AC",
+      "capacity": 120,
+      "pricePerHour": 7000,
+      "pricePerDay": 52000,
+      "venueId": "VG4",
+      "venueName": "FRCC Secunderabad Pavilion",
+      "areaId": "SS",
+      "areaName": "Secunderabad",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Secunderabad",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi"
+      ],
+      "images": [
+        "/images/halls/HYD/SS/VG4/secunderabad-meeting-1.jpg",
+        "/images/halls/HYD/SS/VG4/secunderabad-meeting-2.jpg",
+        "/images/halls/HYD/SS/VG4/secunderabad-meeting-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,000/hr",
+      "displayPricePerDay": "Rs. 52,000/day"
+    },
+    {
+      "id": "VH13",
+      "name": "Board Room",
+      "type": "BOARD_ROOM",
+      "capacity": 18,
+      "pricePerHour": 1800,
+      "pricePerDay": 12000,
+      "venueId": "VG4",
+      "venueName": "FRCC Secunderabad Pavilion",
+      "areaId": "SS",
+      "areaName": "Secunderabad",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Secunderabad",
+      "city": "Hyderabad",
+      "amenities": [
+        "AC",
+        "Video Conferencing",
+        "Whiteboard",
+        "Tea/Coffee"
+      ],
+      "images": [
+        "/images/halls/HYD/SS/VG4/secunderabad-boardroom-1.jpg",
+        "/images/halls/HYD/SS/VG4/secunderabad-boardroom-2.jpg"
+      ],
+      "displayPricePerHour": "Rs. 1,800/hr",
+      "displayPricePerDay": "Rs. 12,000/day"
+    },
+    {
+      "id": "VH14",
+      "name": "Orchid Hall",
+      "type": "AC",
+      "capacity": 450,
+      "pricePerHour": 9000,
+      "pricePerDay": 65000,
+      "venueId": "VG5",
+      "venueName": "FRCC Kukatpally Orchid",
+      "areaId": "KP",
+      "areaName": "Kukatpally",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Kukatpally",
+      "city": "Hyderabad",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/HYD/KP/VG5/kukatpally-orchid-1.jpg",
+        "/images/halls/HYD/KP/VG5/kukatpally-orchid-2.jpg",
+        "/images/halls/HYD/KP/VG5/kukatpally-orchid-3.jpg",
+        "/images/halls/HYD/KP/VG5/kukatpally-orchid-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 9,000/hr",
+      "displayPricePerDay": "Rs. 65,000/day"
+    },
+    {
+      "id": "VH15",
+      "name": "Snowflake Hall",
+      "type": "NON_AC",
+      "capacity": 200,
+      "pricePerHour": 6000,
+      "pricePerDay": 45000,
+      "venueId": "VG5",
+      "venueName": "FRCC Kukatpally Orchid",
+      "areaId": "KP",
+      "areaName": "Kukatpally",
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "area": "Kukatpally",
+      "city": "Hyderabad",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn Access",
+        "Parking",
+        "Basic Stage"
+      ],
+      "images": [
+        "/images/halls/HYD/KP/VG5/kukatpally-snowflake-1.jpg",
+        "/images/halls/HYD/KP/VG5/kukatpally-snowflake-2.jpg",
+        "/images/halls/HYD/KP/VG5/kukatpally-snowflake-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 6,000/hr",
+      "displayPricePerDay": "Rs. 45,000/day"
+    },
+    {
+      "id": "VH16",
+      "name": "Central Hall",
+      "type": "AC",
+      "capacity": 500,
+      "pricePerHour": 8000,
+      "pricePerDay": 58000,
+      "venueId": "VG6",
+      "venueName": "FRCC Amaravathi Central",
+      "areaId": "TU",
+      "areaName": "Thullur",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Thullur",
+      "city": "Amaravathi",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/AMR/TU/VG6/amaravathi-central-1.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-central-2.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-central-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 8,000/hr",
+      "displayPricePerDay": "Rs. 58,000/day"
+    },
+    {
+      "id": "VH17",
+      "name": "Conference Hall",
+      "type": "AC",
+      "capacity": 250,
+      "pricePerHour": 7000,
+      "pricePerDay": 51000,
+      "venueId": "VG6",
+      "venueName": "FRCC Amaravathi Central",
+      "areaId": "TU",
+      "areaName": "Thullur",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Thullur",
+      "city": "Amaravathi",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/AMR/TU/VG6/amaravathi-conf-1.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-conf-2.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-conf-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,000/hr",
+      "displayPricePerDay": "Rs. 51,000/day"
+    },
+    {
+      "id": "VH18",
+      "name": "Garden Hall",
+      "type": "NON_AC",
+      "capacity": 200,
+      "pricePerHour": 6500,
+      "pricePerDay": 48000,
+      "venueId": "VG6",
+      "venueName": "FRCC Amaravathi Central",
+      "areaId": "TU",
+      "areaName": "Thullur",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Thullur",
+      "city": "Amaravathi",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn",
+        "Parking",
+        "Basic Stage",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/AMR/TU/VG6/amaravathi-garden-1.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-garden-2.jpg",
+        "/images/halls/AMR/TU/VG6/amaravathi-garden-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 6,500/hr",
+      "displayPricePerDay": "Rs. 48,000/day"
+    },
+    {
+      "id": "VH19",
+      "name": "Crown Hall",
+      "type": "AC",
+      "capacity": 400,
+      "pricePerHour": 7500,
+      "pricePerDay": 54000,
+      "venueId": "VG7",
+      "venueName": "FRCC Tadepalli Crown",
+      "areaId": "TL",
+      "areaName": "Tadepalli",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Tadepalli",
+      "city": "Amaravathi",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/AMR/TL/VG7/tadepalli-crown-1.jpg",
+        "/images/halls/AMR/TL/VG7/tadepalli-crown-2.jpg",
+        "/images/halls/AMR/TL/VG7/tadepalli-crown-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,500/hr",
+      "displayPricePerDay": "Rs. 54,000/day"
+    },
+    {
+      "id": "VH20",
+      "name": "Banquet Hall",
+      "type": "NON_AC",
+      "capacity": 180,
+      "pricePerHour": 6000,
+      "pricePerDay": 44000,
+      "venueId": "VG7",
+      "venueName": "FRCC Tadepalli Crown",
+      "areaId": "TL",
+      "areaName": "Tadepalli",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Tadepalli",
+      "city": "Amaravathi",
+      "amenities": [
+        "Fans",
+        "Stage",
+        "Dining Tables",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/AMR/TL/VG7/tadepalli-banquet-1.jpg",
+        "/images/halls/AMR/TL/VG7/tadepalli-banquet-2.jpg",
+        "/images/halls/AMR/TL/VG7/tadepalli-banquet-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 6,000/hr",
+      "displayPricePerDay": "Rs. 44,000/day"
+    },
+    {
+      "id": "VH21",
+      "name": "Gardens Hall",
+      "type": "AC",
+      "capacity": 450,
+      "pricePerHour": 8500,
+      "pricePerDay": 62000,
+      "venueId": "VG8",
+      "venueName": "FRCC Mangalagiri Gardens",
+      "areaId": "MG",
+      "areaName": "Mangalagiri",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Mangalagiri",
+      "city": "Amaravathi",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/AMR/MG/VG8/mangalagiri-gardens-1.jpg",
+        "/images/halls/AMR/MG/VG8/mangalagiri-gardens-2.jpg",
+        "/images/halls/AMR/MG/VG8/mangalagiri-gardens-3.jpg",
+        "/images/halls/AMR/MG/VG8/mangalagiri-gardens-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 8,500/hr",
+      "displayPricePerDay": "Rs. 62,000/day"
+    },
+    {
+      "id": "VH22",
+      "name": "Mangalagiri Hall",
+      "type": "NON_AC",
+      "capacity": 220,
+      "pricePerHour": 5500,
+      "pricePerDay": 40000,
+      "venueId": "VG8",
+      "venueName": "FRCC Mangalagiri Gardens",
+      "areaId": "MG",
+      "areaName": "Mangalagiri",
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "area": "Mangalagiri",
+      "city": "Amaravathi",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn",
+        "Parking",
+        "Basic Stage"
+      ],
+      "images": [
+        "/images/halls/AMR/MG/VG8/mangalagiri-hall-1.jpg",
+        "/images/halls/AMR/MG/VG8/mangalagiri-hall-2.jpg",
+        "/images/halls/AMR/MG/VG8/mangalagiri-hall-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 5,500/hr",
+      "displayPricePerDay": "Rs. 40,000/day"
+    },
+    {
+      "id": "VH23",
+      "name": "Imperial Hall",
+      "type": "AC",
+      "capacity": 750,
+      "pricePerHour": 9500,
+      "pricePerDay": 70000,
+      "venueId": "VG9",
+      "venueName": "FRCC Benz Circle Imperial",
+      "areaId": "BC",
+      "areaName": "Benz Circle",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Benz Circle",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Bridal Room",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/VJA/BC/VG9/benzcircle-imperial-1.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-imperial-2.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-imperial-3.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-imperial-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 9,500/hr",
+      "displayPricePerDay": "Rs. 70,000/day"
+    },
+    {
+      "id": "VH24",
+      "name": "Conference Hall",
+      "type": "AC",
+      "capacity": 350,
+      "pricePerHour": 8000,
+      "pricePerDay": 58000,
+      "venueId": "VG9",
+      "venueName": "FRCC Benz Circle Imperial",
+      "areaId": "BC",
+      "areaName": "Benz Circle",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Benz Circle",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/VJA/BC/VG9/benzcircle-conf-1.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-conf-2.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-conf-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 8,000/hr",
+      "displayPricePerDay": "Rs. 58,000/day"
+    },
+    {
+      "id": "VH25",
+      "name": "Board Room",
+      "type": "BOARD_ROOM",
+      "capacity": 35,
+      "pricePerHour": 2200,
+      "pricePerDay": 16000,
+      "venueId": "VG9",
+      "venueName": "FRCC Benz Circle Imperial",
+      "areaId": "BC",
+      "areaName": "Benz Circle",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Benz Circle",
+      "city": "Vijayawada",
+      "amenities": [
+        "AC",
+        "Video Conferencing",
+        "Whiteboard",
+        "Coffee Service"
+      ],
+      "images": [
+        "/images/halls/VJA/BC/VG9/benzcircle-boardroom-1.jpg",
+        "/images/halls/VJA/BC/VG9/benzcircle-boardroom-2.jpg"
+      ],
+      "displayPricePerHour": "Rs. 2,200/hr",
+      "displayPricePerDay": "Rs. 16,000/day"
+    },
+    {
+      "id": "VH26",
+      "name": "Heritage Hall",
+      "type": "AC",
+      "capacity": 650,
+      "pricePerHour": 9000,
+      "pricePerDay": 66000,
+      "venueId": "VG10",
+      "venueName": "FRCC MG Road Heritage",
+      "areaId": "MG",
+      "areaName": "MG Road",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "MG Road",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/VJA/MG/VG10/mgroad-heritage-1.jpg",
+        "/images/halls/VJA/MG/VG10/mgroad-heritage-2.jpg",
+        "/images/halls/VJA/MG/VG10/mgroad-heritage-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 9,000/hr",
+      "displayPricePerDay": "Rs. 66,000/day"
+    },
+    {
+      "id": "VH27",
+      "name": "Conference Room",
+      "type": "AC",
+      "capacity": 200,
+      "pricePerHour": 7000,
+      "pricePerDay": 52000,
+      "venueId": "VG10",
+      "venueName": "FRCC MG Road Heritage",
+      "areaId": "MG",
+      "areaName": "MG Road",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "MG Road",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Projector",
+        "Sound System",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/VJA/MG/VG10/mgroad-conf-1.jpg",
+        "/images/halls/VJA/MG/VG10/mgroad-conf-2.jpg",
+        "/images/halls/VJA/MG/VG10/mgroad-conf-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,000/hr",
+      "displayPricePerDay": "Rs. 52,000/day"
+    },
+    {
+      "id": "VH28",
+      "name": "Board Room",
+      "type": "BOARD_ROOM",
+      "capacity": 22,
+      "pricePerHour": 1800,
+      "pricePerDay": 13000,
+      "venueId": "VG10",
+      "venueName": "FRCC MG Road Heritage",
+      "areaId": "MG",
+      "areaName": "MG Road",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "MG Road",
+      "city": "Vijayawada",
+      "amenities": [
+        "AC",
+        "Video Conferencing",
+        "Whiteboard",
+        "Tea/Coffee"
+      ],
+      "images": [
+        "/images/halls/VJA/MG/VG10/mgroad-boardroom-1.jpg",
+        "/images/halls/VJA/MG/VG10/mgroad-boardroom-2.jpg"
+      ],
+      "displayPricePerHour": "Rs. 1,800/hr",
+      "displayPricePerDay": "Rs. 13,000/day"
+    },
+    {
+      "id": "VH29",
+      "name": "Skyline Hall",
+      "type": "AC",
+      "capacity": 500,
+      "pricePerHour": 8000,
+      "pricePerDay": 58000,
+      "venueId": "VG11",
+      "venueName": "FRCC Gannavaram Skyline",
+      "areaId": "GN",
+      "areaName": "Gannavaram",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Gannavaram",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Catering"
+      ],
+      "images": [
+        "/images/halls/VJA/GN/VG11/gannavaram-skyline-1.jpg",
+        "/images/halls/VJA/GN/VG11/gannavaram-skyline-2.jpg",
+        "/images/halls/VJA/GN/VG11/gannavaram-skyline-3.jpg",
+        "/images/halls/VJA/GN/VG11/gannavaram-skyline-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 8,000/hr",
+      "displayPricePerDay": "Rs. 58,000/day"
+    },
+    {
+      "id": "VH30",
+      "name": "Gannavaram Hall",
+      "type": "NON_AC",
+      "capacity": 250,
+      "pricePerHour": 6500,
+      "pricePerDay": 48000,
+      "venueId": "VG11",
+      "venueName": "FRCC Gannavaram Skyline",
+      "areaId": "GN",
+      "areaName": "Gannavaram",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Gannavaram",
+      "city": "Vijayawada",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn",
+        "Parking",
+        "Basic Stage"
+      ],
+      "images": [
+        "/images/halls/VJA/GN/VG11/gannavaram-hall-1.jpg",
+        "/images/halls/VJA/GN/VG11/gannavaram-hall-2.jpg",
+        "/images/halls/VJA/GN/VG11/gannavaram-hall-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 6,500/hr",
+      "displayPricePerDay": "Rs. 48,000/day"
+    },
+    {
+      "id": "VH31",
+      "name": "Meridian Hall",
+      "type": "AC",
+      "capacity": 480,
+      "pricePerHour": 7800,
+      "pricePerDay": 56000,
+      "venueId": "VG12",
+      "venueName": "FRCC Patamata Meridian",
+      "areaId": "PA",
+      "areaName": "Patamata",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Patamata",
+      "city": "Vijayawada",
+      "amenities": [
+        "Central AC",
+        "Stage & Lighting",
+        "Banquet Seating",
+        "Valet Parking",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "images": [
+        "/images/halls/VJA/PA/VG12/patamata-meridian-1.jpg",
+        "/images/halls/VJA/PA/VG12/patamata-meridian-2.jpg",
+        "/images/halls/VJA/PA/VG12/patamata-meridian-3.jpg",
+        "/images/halls/VJA/PA/VG12/patamata-meridian-4.jpg"
+      ],
+      "displayPricePerHour": "Rs. 7,800/hr",
+      "displayPricePerDay": "Rs. 56,000/day"
+    },
+    {
+      "id": "VH32",
+      "name": "Patamata Hall",
+      "type": "NON_AC",
+      "capacity": 200,
+      "pricePerHour": 5500,
+      "pricePerDay": 40000,
+      "venueId": "VG12",
+      "venueName": "FRCC Patamata Meridian",
+      "areaId": "PA",
+      "areaName": "Patamata",
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "area": "Patamata",
+      "city": "Vijayawada",
+      "amenities": [
+        "Fans & Ventilation",
+        "Outdoor Lawn",
+        "Parking",
+        "Basic Stage"
+      ],
+      "images": [
+        "/images/halls/VJA/PA/VG12/patamata-hall-1.jpg",
+        "/images/halls/VJA/PA/VG12/patamata-hall-2.jpg",
+        "/images/halls/VJA/PA/VG12/patamata-hall-3.jpg"
+      ],
+      "displayPricePerHour": "Rs. 5,500/hr",
+      "displayPricePerDay": "Rs. 40,000/day"
+    }
+  ],
+  "cities": [
+    {
+      "id": "HYD",
+      "name": "Hyderabad",
+      "state": "TS",
+      "areas": [
+        {
+          "id": "HC",
+          "name": "Hitech City",
+          "venues": [
+            {
+              "id": "VG1",
+              "name": "FRCC Grand Hitech",
+              "address": "Plot 1, Road 1, Hitech City, Hyderabad, TS 500081",
+              "phone": "+91-40-1234 5678",
+              "email": "hitech@frcc.in",
+              "googleMaps": "https://maps.google.com/?q=17.4452,78.3421",
+              "parkingCapacity": 200,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.7,
+              "halls": [
+                "VH1",
+                "VH2",
+                "VH3",
+                "VH4"
+              ]
+            }
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "GC",
+          "name": "Gachibowli",
+          "venues": [
+            {
+              "id": "VG2",
+              "name": "FRCC Gachibowli Palace",
+              "address": "Plot 2, Gachibowli, Hyderabad, TS 500032",
+              "phone": "+91-40-2345 6789",
+              "email": "gachibowli@frcc.in",
+              "googleMaps": "https://maps.google.com/?q=17.4600,78.3700",
+              "parkingCapacity": 180,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.5,
+              "halls": [
+                "VH5",
+                "VH6",
+                "VH7"
+              ]
+            }
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "BH",
+          "name": "Banjara Hills",
+          "venues": [
+            {
+              "id": "VG3",
+              "name": "FRCC Banjara Royale",
+              "address": "Plot 3, Banjara Hills, Hyderabad, TS 500034",
+              "phone": "+91-40-3456 7890",
+              "email": "banjara@frcc.in",
+              "googleMaps": "https://maps.google.com/?q=17.4300,78.4000",
+              "parkingCapacity": 150,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.8,
+              "halls": [
+                "VH8",
+                "VH9",
+                "VH10"
+              ]
+            }
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "SS",
+          "name": "Secunderabad",
+          "venues": [
+            {
+              "id": "VG4",
+              "name": "FRCC Secunderabad Pavilion",
+              "address": "Plot 4, Secunderabad, TS 500003",
+              "phone": "+91-40-4567 8901",
+              "email": "secunderabad@frcc.in",
+              "googleMaps": "https://maps.google.com/?q=17.4500,78.4700",
+              "parkingCapacity": 160,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.6,
+              "halls": [
+                "VH11",
+                "VH12",
+                "VH13"
+              ]
+            }
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "KP",
+          "name": "Kukatpally",
+          "venues": [
+            {
+              "id": "VG5",
+              "name": "FRCC Kukatpally Orchid",
+              "address": "Plot 5, Kukatpally, Hyderabad, TS 500072",
+              "phone": "+91-40-5678 9012",
+              "email": "kukatpally@frcc.in",
+              "googleMaps": "https://maps.google.com/?q=17.4200,78.5200",
+              "parkingCapacity": 120,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.4,
+              "halls": [
+                "VH14",
+                "VH15"
+              ]
+            }
+          ],
+          "rating": 4.4
+        }
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "AMR",
+      "name": "Amaravathi",
+      "state": "AP",
+      "areas": [
+        {
+          "id": "TU",
+          "name": "Thullur",
+          "venues": [
+            {
+              "id": "VG6",
+              "name": "FRCC Amaravathi Central",
+              "address": "Plot 6, Thullur, AP 522212",
+              "phone": "+91-863-123 4567",
+              "email": "central@frcc.amaravathi.in",
+              "googleMaps": "https://maps.google.com/?q=16.5800,80.6500",
+              "parkingCapacity": 140,
+              "openingHours": "9:00 AM – 10:00 PM",
+              "rating": 4.3,
+              "halls": [
+                "VH16",
+                "VH17",
+                "VH18"
+              ]
+            }
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "TL",
+          "name": "Tadepalli",
+          "venues": [
+            {
+              "id": "VG7",
+              "name": "FRCC Tadepalli Crown",
+              "address": "Plot 7, Tadepalli, AP 522201",
+              "phone": "+91-863-234 5678",
+              "email": "crown@frcc.amaravathi.in",
+              "googleMaps": "https://maps.google.com/?q=16.5500,80.6000",
+              "parkingCapacity": 100,
+              "openingHours": "9:00 AM – 10:00 PM",
+              "rating": 4.2,
+              "halls": [
+                "VH19",
+                "VH20"
+              ]
+            }
+          ],
+          "rating": 4.2
+        },
+        {
+          "id": "MG",
+          "name": "Mangalagiri",
+          "venues": [
+            {
+              "id": "VG8",
+              "name": "FRCC Mangalagiri Gardens",
+              "address": "Plot 8, Mangalagiri, AP 522503",
+              "phone": "+91-863-345 6789",
+              "email": "gardens@frcc.amaravathi.in",
+              "googleMaps": "https://maps.google.com/?q=16.5300,80.5800",
+              "parkingCapacity": 130,
+              "openingHours": "9:00 AM – 10:00 PM",
+              "rating": 4.4,
+              "halls": [
+                "VH21",
+                "VH22"
+              ]
+            }
+          ],
+          "rating": 4.4
+        }
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "VJA",
+      "name": "Vijayawada",
+      "state": "AP",
+      "areas": [
+        {
+          "id": "BC",
+          "name": "Benz Circle",
+          "venues": [
+            {
+              "id": "VG9",
+              "name": "FRCC Benz Circle Imperial",
+              "address": "Plot 9, Benz Circle, Vijayawada, AP 520001",
+              "phone": "+91-866-123 4567",
+              "email": "imperial@frcc.vj.in",
+              "googleMaps": "https://maps.google.com/?q=16.5000,80.6300",
+              "parkingCapacity": 170,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.6,
+              "halls": [
+                "VH23",
+                "VH24",
+                "VH25"
+              ]
+            }
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "MG",
+          "name": "MG Road",
+          "venues": [
+            {
+              "id": "VG10",
+              "name": "FRCC MG Road Heritage",
+              "address": "Plot 10, MG Road, Vijayawada, AP 520002",
+              "phone": "+91-866-234 5678",
+              "email": "heritage@frcc.vj.in",
+              "googleMaps": "https://maps.google.com/?q=16.5100,80.6500",
+              "parkingCapacity": 150,
+              "openingHours": "9:00 AM – 11:00 PM",
+              "rating": 4.5,
+              "halls": [
+                "VH26",
+                "VH27",
+                "VH28"
+              ]
+            }
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "GN",
+          "name": "Gannavaram",
+          "venues": [
+            {
+              "id": "VG11",
+              "name": "FRCC Gannavaram Skyline",
+              "address": "Plot 11, Gannavaram, AP 521101",
+              "phone": "+91-866-345 6789",
+              "email": "skyline@frcc.vj.in",
+              "googleMaps": "https://maps.google.com/?q=16.4800,80.7000",
+              "parkingCapacity": 110,
+              "openingHours": "9:00 AM – 10:30 PM",
+              "rating": 4.3,
+              "halls": [
+                "VH29",
+                "VH30"
+              ]
+            }
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "PA",
+          "name": "Patamata",
+          "venues": [
+            {
+              "id": "VG12",
+              "name": "FRCC Patamata Meridian",
+              "address": "Plot 12, Patamata, Vijayawada, AP 520013",
+              "phone": "+91-866-456 7890",
+              "email": "meridian@frcc.vj.in",
+              "googleMaps": "https://maps.google.com/?q=16.5200,80.6600",
+              "parkingCapacity": 125,
+              "openingHours": "9:00 AM – 10:30 PM",
+              "rating": 4.4,
+              "halls": [
+                "VH31",
+                "VH32"
+              ]
+            }
+          ],
+          "rating": 4.4
+        }
+      ],
+      "rating": 4.5
+    }
+  ],
+  "venues": [
+    {
+      "id": "VG1",
+      "name": "FRCC Grand Hitech",
+      "address": "Plot 1, Road 1, Hitech City, Hyderabad, TS 500081",
+      "phone": "+91-40-1234 5678",
+      "email": "hitech@frcc.in",
+      "googleMaps": "https://maps.google.com/?q=17.4452,78.3421",
+      "lat": 17.4452,
+      "lng": 78.3421,
+      "parkingCapacity": 200,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.7,
+      "halls": [
+        "VH1",
+        "VH2",
+        "VH3",
+        "VH4"
+      ],
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "areaId": "HC",
+      "areaName": "Hitech City"
+    },
+    {
+      "id": "VG2",
+      "name": "FRCC Gachibowli Palace",
+      "address": "Plot 2, Gachibowli, Hyderabad, TS 500032",
+      "phone": "+91-40-2345 6789",
+      "email": "gachibowli@frcc.in",
+      "googleMaps": "https://maps.google.com/?q=17.4600,78.3700",
+      "lat": 17.46,
+      "lng": 78.37,
+      "parkingCapacity": 180,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.5,
+      "halls": [
+        "VH5",
+        "VH6",
+        "VH7"
+      ],
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "areaId": "GC",
+      "areaName": "Gachibowli"
+    },
+    {
+      "id": "VG3",
+      "name": "FRCC Banjara Royale",
+      "address": "Plot 3, Banjara Hills, Hyderabad, TS 500034",
+      "phone": "+91-40-3456 7890",
+      "email": "banjara@frcc.in",
+      "googleMaps": "https://maps.google.com/?q=17.4300,78.4000",
+      "lat": 17.43,
+      "lng": 78.4,
+      "parkingCapacity": 150,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.8,
+      "halls": [
+        "VH8",
+        "VH9",
+        "VH10"
+      ],
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "areaId": "BH",
+      "areaName": "Banjara Hills"
+    },
+    {
+      "id": "VG4",
+      "name": "FRCC Secunderabad Pavilion",
+      "address": "Plot 4, Secunderabad, TS 500003",
+      "phone": "+91-40-4567 8901",
+      "email": "secunderabad@frcc.in",
+      "googleMaps": "https://maps.google.com/?q=17.4500,78.4700",
+      "lat": 17.45,
+      "lng": 78.47,
+      "parkingCapacity": 160,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.6,
+      "halls": [
+        "VH11",
+        "VH12",
+        "VH13"
+      ],
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "areaId": "SS",
+      "areaName": "Secunderabad"
+    },
+    {
+      "id": "VG5",
+      "name": "FRCC Kukatpally Orchid",
+      "address": "Plot 5, Kukatpally, Hyderabad, TS 500072",
+      "phone": "+91-40-5678 9012",
+      "email": "kukatpally@frcc.in",
+      "googleMaps": "https://maps.google.com/?q=17.4200,78.5200",
+      "lat": 17.42,
+      "lng": 78.52,
+      "parkingCapacity": 120,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.4,
+      "halls": [
+        "VH14",
+        "VH15"
+      ],
+      "cityId": "HYD",
+      "cityName": "Hyderabad",
+      "areaId": "KP",
+      "areaName": "Kukatpally"
+    },
+    {
+      "id": "VG6",
+      "name": "FRCC Amaravathi Central",
+      "address": "Plot 6, Thullur, AP 522212",
+      "phone": "+91-863-123 4567",
+      "email": "central@frcc.amaravathi.in",
+      "googleMaps": "https://maps.google.com/?q=16.5800,80.6500",
+      "lat": 16.58,
+      "lng": 80.65,
+      "parkingCapacity": 140,
+      "openingHours": "9:00 AM – 10:00 PM",
+      "rating": 4.3,
+      "halls": [
+        "VH16",
+        "VH17",
+        "VH18"
+      ],
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "areaId": "TU",
+      "areaName": "Thullur"
+    },
+    {
+      "id": "VG7",
+      "name": "FRCC Tadepalli Crown",
+      "address": "Plot 7, Tadepalli, AP 522201",
+      "phone": "+91-863-234 5678",
+      "email": "crown@frcc.amaravathi.in",
+      "googleMaps": "https://maps.google.com/?q=16.5500,80.6000",
+      "lat": 16.55,
+      "lng": 80.6,
+      "parkingCapacity": 100,
+      "openingHours": "9:00 AM – 10:00 PM",
+      "rating": 4.2,
+      "halls": [
+        "VH19",
+        "VH20"
+      ],
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "areaId": "TL",
+      "areaName": "Tadepalli"
+    },
+    {
+      "id": "VG8",
+      "name": "FRCC Mangalagiri Gardens",
+      "address": "Plot 8, Mangalagiri, AP 522503",
+      "phone": "+91-863-345 6789",
+      "email": "gardens@frcc.amaravathi.in",
+      "googleMaps": "https://maps.google.com/?q=16.5300,80.5800",
+      "lat": 16.53,
+      "lng": 80.58,
+      "parkingCapacity": 130,
+      "openingHours": "9:00 AM – 10:00 PM",
+      "rating": 4.4,
+      "halls": [
+        "VH21",
+        "VH22"
+      ],
+      "cityId": "AMR",
+      "cityName": "Amaravathi",
+      "areaId": "MG",
+      "areaName": "Mangalagiri"
+    },
+    {
+      "id": "VG9",
+      "name": "FRCC Benz Circle Imperial",
+      "address": "Plot 9, Benz Circle, Vijayawada, AP 520001",
+      "phone": "+91-866-123 4567",
+      "email": "imperial@frcc.vj.in",
+      "googleMaps": "https://maps.google.com/?q=16.5000,80.6300",
+      "lat": 16.5,
+      "lng": 80.63,
+      "parkingCapacity": 170,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.6,
+      "halls": [
+        "VH23",
+        "VH24",
+        "VH25"
+      ],
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "areaId": "BC",
+      "areaName": "Benz Circle"
+    },
+    {
+      "id": "VG10",
+      "name": "FRCC MG Road Heritage",
+      "address": "Plot 10, MG Road, Vijayawada, AP 520002",
+      "phone": "+91-866-234 5678",
+      "email": "heritage@frcc.vj.in",
+      "googleMaps": "https://maps.google.com/?q=16.5100,80.6500",
+      "lat": 16.51,
+      "lng": 80.65,
+      "parkingCapacity": 150,
+      "openingHours": "9:00 AM – 11:00 PM",
+      "rating": 4.5,
+      "halls": [
+        "VH26",
+        "VH27",
+        "VH28"
+      ],
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "areaId": "MG",
+      "areaName": "MG Road"
+    },
+    {
+      "id": "VG11",
+      "name": "FRCC Gannavaram Skyline",
+      "address": "Plot 11, Gannavaram, AP 521101",
+      "phone": "+91-866-345 6789",
+      "email": "skyline@frcc.vj.in",
+      "googleMaps": "https://maps.google.com/?q=16.4800,80.7000",
+      "lat": 16.48,
+      "lng": 80.7,
+      "parkingCapacity": 110,
+      "openingHours": "9:00 AM – 10:30 PM",
+      "rating": 4.3,
+      "halls": [
+        "VH29",
+        "VH30"
+      ],
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "areaId": "GN",
+      "areaName": "Gannavaram"
+    },
+    {
+      "id": "VG12",
+      "name": "FRCC Patamata Meridian",
+      "address": "Plot 12, Patamata, Vijayawada, AP 520013",
+      "phone": "+91-866-456 7890",
+      "email": "meridian@frcc.vj.in",
+      "googleMaps": "https://maps.google.com/?q=16.5200,80.6600",
+      "lat": 16.52,
+      "lng": 80.66,
+      "parkingCapacity": 125,
+      "openingHours": "9:00 AM – 10:30 PM",
+      "rating": 4.4,
+      "halls": [
+        "VH31",
+        "VH32"
+      ],
+      "cityId": "VJA",
+      "cityName": "Vijayawada",
+      "areaId": "PA",
+      "areaName": "Patamata"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "FRCC_75D6014C",
+      "userId": "test-user-1",
+      "hallId": "VH1",
+      "hallName": "Grand Ballroom",
+      "date": "2026-10-14",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "guests": 24,
+      "eventType": "Corporate",
+      "eventDetails": "",
+      "organizerName": "hgv",
+      "phone": "9876543210",
+      "email": "v.@gmail.com",
+      "specialRequests": "",
+      "amount": 17700,
+      "hallCharge": 15000,
+      "gst": 2700,
+      "convenienceFee": 0,
+      "paymentMethod": "UPI_QR",
+      "amountPaid": 17700,
+      "balanceDue": 0,
+      "maskedInstrument": "UPI QR",
+      "upiIdMasked": "UPI QR",
+      "transactionRef": "UPI_QR_1791867249126",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "HYD",
+      "areaId": "HC",
+      "venueId": "VG1",
+      "venueName": "FRCC Grand Hitech",
+      "city": "Hyderabad",
+      "area": "Hitech City",
+      "cityName": "Hyderabad",
+      "areaName": "Hitech City",
+      "paymentStatus": "PAID",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-13T04:54:09.149Z",
+      "cancelledAt": null,
+      "refundAmount": 0,
+      "refundRef": null
+    },
+    {
+      "id": "FRCC_B9A12941",
+      "userId": "test-user-1",
+      "hallId": "VH19",
+      "hallName": "Crown Hall",
+      "date": "2026-10-14",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "guests": 59,
+      "eventType": "Workshop",
+      "eventDetails": "",
+      "organizerName": "hjb",
+      "phone": "9876543210",
+      "email": "v.@gmail.com",
+      "specialRequests": "",
+      "amount": 17700,
+      "hallCharge": 15000,
+      "gst": 2700,
+      "convenienceFee": 0,
+      "paymentMethod": "ADVANCE_PAY_AT_VENUE",
+      "amountPaid": 4425,
+      "balanceDue": 13275,
+      "maskedInstrument": "va***@ybl",
+      "upiIdMasked": "va***@ybl",
+      "transactionRef": "ADVANCE_PAY_AT_VENUE_1791868482605",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "AMR",
+      "areaId": "TL",
+      "venueId": "VG7",
+      "venueName": "FRCC Tadepalli Crown",
+      "city": "Amaravathi",
+      "area": "Tadepalli",
+      "cityName": "Amaravathi",
+      "areaName": "Tadepalli",
+      "paymentStatus": "PARTIAL",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-13T05:14:42.627Z",
+      "cancelledAt": null,
+      "refundAmount": 0,
+      "refundRef": null
+    },
+    {
+      "id": "FRCC_4A3C7B0E",
+      "userId": "test-user-1",
+      "hallId": "VH18",
+      "hallName": "Garden Hall",
+      "date": "2026-10-24",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "guests": 161,
+      "eventType": "Conference",
+      "eventDetails": "",
+      "organizerName": "vjj",
+      "phone": "9876654321",
+      "email": "v.@gmail.com",
+      "specialRequests": "",
+      "amount": 7670,
+      "hallCharge": 6500,
+      "gst": 1170,
+      "convenienceFee": 0,
+      "paymentMethod": "UPI_ID",
+      "amountPaid": 7670,
+      "balanceDue": 0,
+      "maskedInstrument": "vh***@ybl",
+      "upiIdMasked": "vh***@ybl",
+      "transactionRef": "UPI_ID_1791871275355",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "AMR",
+      "areaId": "TU",
+      "venueId": "VG6",
+      "venueName": "FRCC Amaravathi Central",
+      "city": "Amaravathi",
+      "area": "Thullur",
+      "cityName": "Amaravathi",
+      "areaName": "Thullur",
+      "paymentStatus": "REFUNDED",
+      "status": "CANCELLED",
+      "createdAt": "2026-10-13T06:01:15.394Z",
+      "cancelledAt": "2026-10-13T06:02:05.593Z",
+      "refundAmount": 7670,
+      "refundRef": "RFD_1791871325593"
+    },
+    {
+      "id": "FRCC_40947C77",
+      "userId": "test-user-1",
+      "hallId": "VH18",
+      "hallName": "Garden Hall",
+      "date": "2026-10-24",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "guests": 161,
+      "eventType": "Conference",
+      "eventDetails": "",
+      "organizerName": "vjj",
+      "phone": "9876654321",
+      "email": "v.@gmail.com",
+      "specialRequests": "",
+      "amount": 7670,
+      "hallCharge": 6500,
+      "gst": 1170,
+      "convenienceFee": 0,
+      "paymentMethod": "ADVANCE_PAY_AT_VENUE",
+      "amountPaid": 1918,
+      "balanceDue": 5752,
+      "maskedInstrument": "vg***@ybl",
+      "upiIdMasked": "vg***@ybl",
+      "transactionRef": "ADVANCE_PAY_AT_VENUE_1791871416302",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "AMR",
+      "areaId": "TU",
+      "venueId": "VG6",
+      "venueName": "FRCC Amaravathi Central",
+      "city": "Amaravathi",
+      "area": "Thullur",
+      "cityName": "Amaravathi",
+      "areaName": "Thullur",
+      "paymentStatus": "REFUNDED",
+      "status": "CANCELLED",
+      "createdAt": "2026-10-13T06:03:36.319Z",
+      "cancelledAt": "2026-10-13T06:45:25.905Z",
+      "refundAmount": 1918,
+      "refundRef": "RFD_1791873925905"
+    },
+    {
+      "id": "FRCC_B6CDC9BC",
+      "userId": "test-user-1",
+      "hallId": "VH5",
+      "hallName": "Grand Hall",
+      "date": "2026-10-16",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "guests": 29,
+      "eventType": "Corporate",
+      "eventDetails": "",
+      "organizerName": "ccx",
+      "phone": "9876543210",
+      "email": "v@gmail.com",
+      "specialRequests": "",
+      "amount": 14160,
+      "hallCharge": 12000,
+      "gst": 2160,
+      "convenienceFee": 0,
+      "paymentMethod": "UPI_ID",
+      "amountPaid": 14160,
+      "balanceDue": 0,
+      "maskedInstrument": "vf***@ybl",
+      "upiIdMasked": "vf***@ybl",
+      "transactionRef": "UPI_ID_1791873899991",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "HYD",
+      "areaId": "GC",
+      "venueId": "VG2",
+      "venueName": "FRCC Gachibowli Palace",
+      "city": "Hyderabad",
+      "area": "Gachibowli",
+      "cityName": "Hyderabad",
+      "areaName": "Gachibowli",
+      "paymentStatus": "PAID",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-13T06:45:00.028Z",
+      "cancelledAt": null,
+      "refundAmount": 0,
+      "refundRef": null
+    },
+    {
+      "id": "FRCC_C0A2A867",
+      "userId": "test-user-1",
+      "hallId": "VH23",
+      "hallName": "Imperial Hall",
+      "date": "2026-10-30",
+      "startTime": "11:00",
+      "endTime": "15:00",
+      "guests": 521,
+      "eventType": "Conference",
+      "eventDetails": "",
+      "organizerName": "hbhvh",
+      "phone": "9876543210",
+      "email": "v@gmail.com",
+      "specialRequests": "",
+      "amount": 44840,
+      "hallCharge": 38000,
+      "gst": 6840,
+      "convenienceFee": 0,
+      "paymentMethod": "ADVANCE_PAY_AT_VENUE",
+      "amountPaid": 11210,
+      "balanceDue": 33630,
+      "maskedInstrument": "vh***@ybl",
+      "upiIdMasked": "vh***@ybl",
+      "transactionRef": "ADVANCE_PAY_AT_VENUE_1791874037103",
+      "emiTenure": null,
+      "emiMonthlyAmount": null,
+      "gstin": null,
+      "utrNumber": null,
+      "cityId": "VJA",
+      "areaId": "BC",
+      "venueId": "VG9",
+      "venueName": "FRCC Benz Circle Imperial",
+      "city": "Vijayawada",
+      "area": "Benz Circle",
+      "cityName": "Vijayawada",
+      "areaName": "Benz Circle",
+      "paymentStatus": "PARTIAL",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-13T06:47:17.124Z",
+      "cancelledAt": null,
+      "refundAmount": 0,
+      "refundRef": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": "N_57188943",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_75D6014C for Grand Ballroom on 2026-10-14 (14:00–15:00).",
+      "read": false,
+      "createdAt": "2026-10-13T04:54:09.149Z"
+    },
+    {
+      "id": "N_60ED073A",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_B9A12941 for Crown Hall on 2026-10-14 (16:00–18:00).",
+      "read": false,
+      "createdAt": "2026-10-13T05:14:42.627Z"
+    },
+    {
+      "id": "N_044BB293",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_4A3C7B0E for Garden Hall on 2026-10-24 (15:00–16:00).",
+      "read": false,
+      "createdAt": "2026-10-13T06:01:15.394Z"
+    },
+    {
+      "id": "N_4EB22E4A",
+      "userId": "test-user-1",
+      "message": "Booking cancelled, refund initiated — FRCC_4A3C7B0E. Refund of ₹7670 to your original payment method.",
+      "read": false,
+      "createdAt": "2026-10-13T06:02:05.593Z"
+    },
+    {
+      "id": "N_6D6597CD",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_40947C77 for Garden Hall on 2026-10-24 (15:00–16:00).",
+      "read": false,
+      "createdAt": "2026-10-13T06:03:36.319Z"
+    },
+    {
+      "id": "N_B0FC079F",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_B6CDC9BC for Grand Hall on 2026-10-16 (17:00–18:00).",
+      "read": false,
+      "createdAt": "2026-10-13T06:45:00.029Z"
+    },
+    {
+      "id": "N_94513E0A",
+      "userId": "test-user-1",
+      "message": "Booking cancelled, refund initiated — FRCC_40947C77. Refund of ₹1918 to your original payment method. Only the advance amount has been refunded.",
+      "read": false,
+      "createdAt": "2026-10-13T06:45:25.906Z"
+    },
+    {
+      "id": "N_9B6D5F0F",
+      "userId": "test-user-1",
+      "message": "Booking confirmed — FRCC_C0A2A867 for Imperial Hall on 2026-10-30 (11:00–15:00).",
+      "read": false,
+      "createdAt": "2026-10-13T06:47:17.125Z"
+    }
+  ],
+  "tickets": [],
+  "reviews": []
+}
