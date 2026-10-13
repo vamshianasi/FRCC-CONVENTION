@@ -1,3 +1,4 @@
+
 # FRCC CONVENTIONS — Convention Hall Booking Website
 
 A multi-page booking web app for convention/function halls. This module covers **only** the convention hall booking flow.
